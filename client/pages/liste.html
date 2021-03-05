@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../src/styles/style.css">
+        <title>Liste</title>
+    </head>
+    <body>
+        <header>
+            <div><h1>LISTE</h1></div>
+            <div><a href="/">&#8592; Retour</a></div>
+        </header>
+        <hr/>
+        <div>
+            <table class="liste">
+                <thead>
+                    <tr><th colspan="7">Liste des mangas</th></tr>
+                    <tr>
+                        <th>Id</th>
+                        <th>Titre</th>
+                        <th>Auteur</th>
+                        <th>Tomes</th>
+                        <th>1ère parution</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="maListe"></tbody>
+            </table>
+        </div>
+        <hr/>
+        <div>
+            <form action="#" name="form">
+                <table>
+                    <thead>
+                        <tr><th colspan="2">Ajouter un manga</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="titre">Titre : </td>
+                            <td><input type="text" id="addTitre"/></td>
+                        </tr>
+                        <tr>
+                            <td class="titre">Auteur : </td>
+                            <td><input type="text" id="addAuteur"/></td>
+                        </tr>
+                        <tr>
+                            <td class="titre">Tomes : </td>
+                            <td><input type="number" id="addTomes" min="1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td class="titre">1ère parution : </td>
+                            <td><input type="text" id="addParution"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button class="button" id="btnAdd">Ajouter</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <hr/>
+
+        <script type="module" src="../src/scripts/script.js"></script>
+    </body>
+</html>

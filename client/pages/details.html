@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equip="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../src/styles/style.css">
+        <title>Détails</title>
+    </head>
+    <body>
+        <header>
+            <div><h1>DÉTAILS</h1></div>
+            <div><a href="liste.html">&#8592; Retour</a></div>
+        </header>
+        <hr/>
+        <div>
+            <form action="#" name="form">
+                    <table>
+                        <thead>
+                            <tr><th colspan="2">Modifier un manga</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="titre">Titre : </td>
+                                <td><input type="text" id="titreUpdate"/></td>
+                            </tr>
+                            <tr>
+                                <td class="titre">Auteur : </td>
+                                <td><input type="text" id="auteurUpdate"/></td>
+                            </tr>
+                            <tr>
+                                <td class="titre">Tomes : </td>
+                                <td><input type="number" id="tomesUpdate" min="1" value="1"/></td>
+                            </tr>
+                            <tr>
+                                <td class="titre">1ère parution : </td>
+                                <td><input type="text" id="parutionUpdate"/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button class="button" id="btnUpdate">Modifier</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </form>
+        </div>
+        <hr/>
+
+        <script type="module" src="../src/scripts/script2.js"></script>
+    </body>
+</html>

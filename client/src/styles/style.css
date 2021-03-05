@@ -1,0 +1,82 @@
+html {
+    width: 90%;
+    margin: auto;
+    background-color: #202020;
+    color: #DADADA;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #DADADA;
+    min-height: 50px;
+    padding: 20px;
+}
+
+h1 {
+    color: #202020;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+}
+
+table {
+    margin: 50px auto 50px auto;
+    border-collapse: collapse;
+    background-color: #DADADA;
+    color: #202020;
+    box-shadow: 5px 5px 5px black;
+}
+
+table th, table td {
+    border: 3px solid #202020;
+    padding: 10px;
+}
+
+table th, .titre {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.liste {
+    width: 80%;
+}
+
+a {
+    color: #202020;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #AAAAAA;
+}
+
+.button {
+    width: 100%;
+    font-weight: bold;
+    color: #DADADA;
+    background-color: #202020;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #AAAAAA;
+    color: #202020;
+}
+
+.image {
+    width: 100%;
+    text-align: center;
+}
+
+.responsive-img {
+    width: 30%;
+    height: auto;
+    box-shadow: 5px 5px 5px black;
+    margin: 30px;
+    border-radius: 10px;
+    border: 2px solid #DADADA;
+}
